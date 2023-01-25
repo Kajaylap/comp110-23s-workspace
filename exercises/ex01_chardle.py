@@ -14,59 +14,59 @@ else:
         exit()
 
 
-search_prompt = print("Searching for" , single_char , "in" , five_char_word)
+search_prompt = print("Searching for", single_char, "in", five_char_word)
 
 # printing out correct index
 zero = five_char_word[0] == single_char
-if zero == True:
+if zero:
     print(single_char, "found at index 0")
 
 one = five_char_word[1] == single_char
-if one == True:
+if one:
     print(single_char, "found at index 1")
 
 two = five_char_word[2] == single_char
-if two == True:
+if two:
     print(single_char, "found at index 2")
 
 three = five_char_word[3] == single_char
-if three == True:
+if three:
     print(single_char, "found at index 3")
 
 four = five_char_word[4] == single_char
-if four == True:
+if four:
     print(single_char, "found at index 4")
 
 
-if  zero == True:
+if zero:
     zero_instance = int(1)
 
 else:
     zero_instance = int(0)
 
 
-if  one == True:
+if one:
     one_instance = int(1)
 
 else:
     one_instance = int(0)
 
 
-if  two == True:
+if two:
     two_instance = int(1)
 
 else:
     two_instance = int(0)
   
-  
-if  three == True:
+
+if three:
     three_instance = int(1)
 
 else:
     three_instance = int(0)
 
 
-if  four == True:
+if four:
     four_instance = int(1)
 
 else:
@@ -75,7 +75,7 @@ else:
 
 sum = int(zero_instance + one_instance + two_instance + three_instance + four_instance)
 
-if  sum == 0:
+if sum == 0:
     print("No instances of", single_char, "found in", five_char_word)
 
 elif sum == 1:
@@ -83,4 +83,4 @@ elif sum == 1:
 
 else:
     sum > 1
-    print(sum, "instances of", single_char, "found in",five_char_word)
+    print(sum, "instances of", single_char, "found in", five_char_word)
