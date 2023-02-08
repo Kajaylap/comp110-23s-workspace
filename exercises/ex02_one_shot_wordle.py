@@ -14,13 +14,9 @@ while guess:
         guess = input("What is your 6-letter guess? ")
     while len(secret_word) > guess_index:
         if guess[guess_index] == secret_word[guess_index]:
-            Correct = print(Green_box)
+            print(Green_box)
             guess_index = guess_index + 1
-            if Correct:
-                print("Woo! You got it!")
-                guess = input("What is your 6-letter guess? ")
         else:
-            Wrong = print(White_box)
-            print("Not quite. Play again soon!")
+            print(White_box)
             guess_index = guess_index + 1
-            guess = input("What is your 6-letter guess? ")
+
