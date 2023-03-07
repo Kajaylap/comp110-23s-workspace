@@ -2,7 +2,6 @@
 
 __author__ = "730418782"
 
-ratings: list[int] = [7, 4, 9, 8, 3]
 
 def all(list_int: list[int], number: int) -> bool:
     """Return bool to indicate if ints in the list are the same as given number."""
