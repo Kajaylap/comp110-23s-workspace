@@ -15,7 +15,7 @@ def main() -> None:
     guessing(yes_or_no)
 
 
-def greet():
+def greet() -> None:
     global player
     player = input("Hi! What is your name? ")
     print(f"Welcome {player} to Guess the Mystery Number!")
