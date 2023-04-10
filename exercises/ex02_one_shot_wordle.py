@@ -2,7 +2,7 @@
 
 __author__ = "730418782"
 
-SECRET_WORD = "python"
+SECRET_WORD = "codes"
 len_secret_word: int = len(SECRET_WORD)
 guess = input(f"What is your { len_secret_word }-letter guess? ")
 guessing: bool = True
@@ -17,7 +17,7 @@ result: str = ""
 
 while guessing:
     while len(guess) != len_secret_word:  
-        print("That was not 6 letters! Try again: ")
+        print("That was not", len_secret_word, "letters! Try again: ")
         guess = input(f"What is your { len_secret_word }-letter guess? ")
 
     while len_secret_word > guess_index:  

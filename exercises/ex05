@@ -1,0 +1,16 @@
+"""EX04 - list Utility Functions."""
+
+__author__ = "730418782"
+
+
+def only_evens(list_int: list[int]) -> list:
+    even_numbers = []
+    for number in list:
+        if number % 2 == 0: 
+            even_numbers.append(number)
+    return even_numbers
+
+
+def concat(list_int: list[int], list_int2: list[int]) -> list:
+    for number in list_int:
+        list_int2.append(number)
