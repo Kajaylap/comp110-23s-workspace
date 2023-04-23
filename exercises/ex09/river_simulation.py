@@ -1,13 +1,7 @@
-from river import River
+"""File to simulate river population."""
+from exercises.ex09.river import River
 
 
-my_river: River = River(10,2)
+my_river = River = River(10, 2)
 
-
-def view_river(self) -> None:
-    print(f"~~~ Day ,{self.day}, :")
-    print(f"Fish population: ,{self.fish}")
-    print(f"Bear population: ,{self.bears}")
-    return None
-
-my_river.view_river
+my_river.one_river_week()
